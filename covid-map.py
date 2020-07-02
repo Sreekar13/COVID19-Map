@@ -6,11 +6,10 @@ import datetime
 import platform
 import os
 
-#https://data.humdata.org/dataset/novel-coronavirus-2019-ncov-cases?force_layout=desktop
-#Data is gathered from Johns Hopkins University's data source
-confirmed_url='https://data.humdata.org/hxlproxy/api/data-preview.csv?url=https%3A%2F%2Fraw.githubusercontent.com%2FCSSEGISandData%2FCOVID-19%2Fmaster%2Fcsse_covid_19_data%2Fcsse_covid_19_time_series%2Ftime_series_covid19_confirmed_global.csv&filename=time_series_covid19_confirmed_global.csv'
-recovered_url='https://data.humdata.org/hxlproxy/api/data-preview.csv?url=https%3A%2F%2Fraw.githubusercontent.com%2FCSSEGISandData%2FCOVID-19%2Fmaster%2Fcsse_covid_19_data%2Fcsse_covid_19_time_series%2Ftime_series_covid19_recovered_global.csv&filename=time_series_covid19_recovered_global.csv'
-deaths_url='https://data.humdata.org/hxlproxy/api/data-preview.csv?url=https%3A%2F%2Fraw.githubusercontent.com%2FCSSEGISandData%2FCOVID-19%2Fmaster%2Fcsse_covid_19_data%2Fcsse_covid_19_time_series%2Ftime_series_covid19_deaths_global.csv&filename=time_series_covid19_deaths_global.csv'
+#Data is gathered from Johns Hopkins University's data source. This is striclty for educational purposes.
+confirmed_url='<DATA_SOURCE>'
+recovered_url='<DATA_SOURCE>'
+deaths_url='<DATA_SOURCE>'
 
 #Getting the CSV content from the responses
 confirmed=requests.get(confirmed_url).content
@@ -71,6 +70,7 @@ for row in range(len(total_df)):
 map.add_child(fg)
 map.save("CovidMap.html")
 
+#To open the generated html file in browser
 if(platform.system()=='Windows'):
     os.system('CovidMap.html')
 else:
