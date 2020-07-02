@@ -5,6 +5,6 @@ The python script will generate a Map with all the stats of COVID 19 cases, data
 
 This is strictly for educational purpose.
 
-![alt text] (Snapshot-COVID-Map?raw=true "MAP")
+![Screenshot] (Snapshot-COVID-Map)
 
 Data source is collected from Johns Hopkins University
