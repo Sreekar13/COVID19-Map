@@ -7,4 +7,4 @@ After generating the map, it will open the file in the browser by identifying th
 
 This is strictly for educational purpose.
 
-![GitHub Logo] 
+![GitHub Logo] (Snapshot-COVID-Map)
