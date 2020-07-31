@@ -6,3 +6,5 @@ The python script will generate a Map with all the stats of COVID 19 cases, data
 After generating the map, it will open the file in the browser by identifying the operating system. This works for both LINUX versions and Windows operating systems.
 
 This is strictly for educational purpose.
+
+![GitHub Logo] 
